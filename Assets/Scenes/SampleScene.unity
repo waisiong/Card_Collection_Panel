@@ -15450,6 +15450,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f48b5386b9de03e45a851024f503901f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonImage: {fileID: 896648981}
 --- !u!1 &903630505
 GameObject:
   m_ObjectHideFlags: 0
@@ -16707,6 +16708,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f48b5386b9de03e45a851024f503901f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonImage: {fileID: 967250497}
 --- !u!1 &970770392
 GameObject:
   m_ObjectHideFlags: 0
@@ -23336,6 +23338,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f48b5386b9de03e45a851024f503901f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonImage: {fileID: 1366480431}
 --- !u!1 &1367660798
 GameObject:
   m_ObjectHideFlags: 0
@@ -28543,6 +28546,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f48b5386b9de03e45a851024f503901f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonImage: {fileID: 1701727004}
 --- !u!1 &1705726896
 GameObject:
   m_ObjectHideFlags: 0
@@ -29986,6 +29990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f48b5386b9de03e45a851024f503901f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  buttonImage: {fileID: 1773660479}
 --- !u!1 &1776678529
 GameObject:
   m_ObjectHideFlags: 0
@@ -33755,6 +33760,12 @@ MonoBehaviour:
   - {fileID: 612518039}
   - {fileID: 476297896}
   - {fileID: 1512331295}
+  tabControllers:
+  - {fileID: 1773660481}
+  - {fileID: 896648983}
+  - {fileID: 1366480433}
+  - {fileID: 1701727006}
+  - {fileID: 967250499}
   critterColor: {r: 0.98039216, g: 0.69803923, b: 0.24705882, a: 1}
   spellColor: {r: 0.9245283, g: 0.61489856, b: 0.61889374, a: 1}
   weaponColor: {r: 0.45490196, g: 0.8392157, b: 0.40784314, a: 1}

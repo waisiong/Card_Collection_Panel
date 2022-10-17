@@ -8,6 +8,7 @@ public class UIManager : MonoBehaviour
 {
     public CardManager cardManager;
     public GameObject[] cardSlots;
+    public TabsManager[] tabControllers;
 
     #region Color
     [Header("Card Background Color")]
@@ -45,6 +46,12 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         cardBoardImage.GetComponent<Image>().color = normalBgColor;
+        tabControllers[0].setButtonColor(normalBgColor);
+        tabControllers[1].setButtonColor(critterBgColor);
+        tabControllers[2].setButtonColor(spellBgColor);
+        tabControllers[3].setButtonColor(weaponBgColor);
+        tabControllers[4].setButtonColor(gemStoneBgColor);
+
         DisplayCards(page);
         UpdatePageUI();
     }

@@ -3,9 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using DG.Tweening;
+using UnityEngine.UI;
 
 public class TabsManager : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler, IPointerClickHandler
 {
+    public Image buttonImage;
+
+    public void setButtonColor(Color value)
+    {
+        buttonImage.color = value;
+    }
+
     public void OnPointerClick(PointerEventData eventData)
     {
             transform.DOPunchRotation(new Vector3(0, 0, 30), 0.2f, 4, 0.5f);
